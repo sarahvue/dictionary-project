@@ -8,6 +8,8 @@ export default function App() {
     <div className="App">
       <div className="container">
         <main>
+          <h1 className="text-center mt-4">Dictionary</h1>
+          <p className="text-center">Find the definition of a word.</p>
           <Dictionary />
         </main>
         <footer className="text-center appFooter">
