@@ -33,8 +33,11 @@ export default function Dictionary() {
           placeholder="Enter in a word"
           onChange={handleKeywordChange}
         ></input>
+        <input type="submit" value="Define" className="ms-2"></input>
       </form>
-      <Results results={results} />
+      <div className="mt-3">
+        <Results results={results} />
+      </div>
     </div>
   );
 }
