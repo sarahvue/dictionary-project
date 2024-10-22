@@ -1,3 +1,8 @@
 .appFooter {
   margin: 30px;
 }
+
+.App {
+  max-width: 960px;
+  margin: auto;
+}
