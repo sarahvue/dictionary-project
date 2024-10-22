@@ -35,6 +35,7 @@ export default function Dictionary() {
         ></input>
         <input type="submit" value="Define" className="ms-2"></input>
       </form>
+
       <div className="mt-3">
         <Results results={results} />
       </div>
